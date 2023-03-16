@@ -2,16 +2,17 @@ h1 {
     @media screen and (max-width:500px){
         font-size: 20px;
     }
-    }
+}
     
-    h2{
-        @media screen and (max-width:500px){
-            margin-top: 50px;
-        }
+h2{
+    @media screen and (max-width:500px){
+        margin-top: 50px;
     }
+}
     
-    .sticky-icon {
-        @media screen and (max-width:500px){
-            display: none;
-    }
-    }
+.sticky-icon {
+    @media screen and (max-width:500px){
+        display: none;
+}
+}
+
