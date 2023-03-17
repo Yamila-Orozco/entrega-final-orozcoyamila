@@ -1,5 +1,99 @@
+//socialicons queries
 @media screen and (max-width: 480px) {
     .sticky-icon {
         display: none;
     }
+}
+//margins social queries
+@media screen and (max-width: 480px) {
+    .margin {
+        margin-right: 1%;
+        margin-left: 1%;
+        padding: 1%;
+}
+}
+//font queries
+h1 {
+// Tablets
+  @media only screen and (max-width: 1024px) {
+    font-size: 220.7%;
+  }
+  // Mobiles  
+  @media only screen and (max-width: 768px) {
+    font-size: 175.3%;
+  }
+  // Small Mobiles
+  @media only screen and (max-width: 480px) {
+    font-size:  132.3%;
+  }
+}
+
+h2 {
+// Tablets
+  @media only screen and (max-width: 1024px) {
+    font-size: 176.6%;
+  }
+// Mobiles
+  @media only screen and (max-width: 768px) {
+    font-size: 136.3%;
+  }
+// Small Mobiles
+  @media only screen and (max-width: 480px) {
+    font-size: 95%;
+  }
+}
+
+h3 {
+// Tablets
+  @media only screen and (max-width: 1024px) {
+    font-size: 141.3%;
+  }
+
+// Mobiles
+  @media only screen and (max-width: 768px) {
+    font-size: 95%}
+// Small Mobiles
+  @media only screen and (max-width: 480px) {
+    font-size: 80%;
+  }
+}
+
+p {
+  @media only screen and (max-width: 1024px) {
+    font-size: 112.5%;
+  }
+// Mobiles
+  @media only screen and (max-width: 768px) {
+    font-size: 80%
+  }
+// Small Mobiles
+  @media only screen and (max-width: 480px) {
+    font-size: 60%
+  }
+}
+
+
+//buttons queries
+.btn-danger, .card-btn {
+  @media only screen and (max-width: 1024px) {
+    font-size:11px;
+    padding: 8px 13px;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size:8px;
+    padding: 6px 11px;
+    border-radius: 10px;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  @media only screen and (max-width: 480px) {
+    font-size:8px;
+    padding: 6px 11px;
+    border-radius: 10px;
+    font-size: 8px;
+    font-weight: 500;
+  }
 }
