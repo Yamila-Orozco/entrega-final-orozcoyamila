@@ -4,7 +4,6 @@
 @import 'utilities/mixins';
 
 @import 'vendors/bootstrap';
-@import 'vendors/jquery-ui';
 
 @import 'base/reset';
 @import 'base/typo';
@@ -22,3 +21,5 @@
 
 @import 'pages/index';
 @import 'pages/blogentries';
+
+@import 'vendors/jquery-ui';
