@@ -35,6 +35,14 @@ h3 {
   color: #F25C78;
 }
 
+h4 {
+  font-family: "Rift", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 156.3%;
+  color: whitesmoke;
+}
+
 p {
   font-family: "Rift", sans-serif;
   font-weight: 300;
@@ -201,7 +209,7 @@ footer, .max-width {
 }
 
 .bgimage {
-  background-image: url(../../assets/texturas/whitepapertexture.svg);
+  background-image: url(../../assets/texturas/whitepapertexture.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
