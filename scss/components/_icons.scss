@@ -34,7 +34,7 @@
 		background-color: $neutro-color-white;
 		height: 40px;
 		width: 40px;
-		color: #000;
+		color: $neutro-color-black;
 		text-align: center;
 		line-height: 40px;
 		border-radius: 50%;
@@ -59,17 +59,17 @@
 	}
   
 	.Facebook {
-	  background-color: #7291F9;
+	  background-color: $primary-color-lightblue;
 	  color: $neutro-color-white;
 	}
   
 	.Youtube {
-	  background-color: #F25C78;
+	  background-color: $primary-color-red;
 	  color: $neutro-color-white;
 	}
   
 	.Instagram {
-	  background-color: #E66BBA;
+	  background-color: $primary-color-pink;
 	  color: $neutro-color-white;
 	}
   }
