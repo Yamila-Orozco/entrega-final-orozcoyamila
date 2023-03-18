@@ -214,7 +214,7 @@ footer .max-width {
 }
 
 .bgimage {
-  background-image: url("../../assets/texturas/whitepapertexture.png");
+  background-image: url(../../assets/texturas/whitepapertexture.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
