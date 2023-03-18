@@ -76,7 +76,7 @@ footer, .max-width {
   border: 2px solid plum;
   padding: 10px 15px;
   border-radius: 25px;
-  font-size: 10px;
+  font-size: 70%;
   font-weight: 600;
   transition: all 0.5s;
   cursor: pointer;
@@ -201,7 +201,7 @@ footer, .max-width {
 }
 
 .bgimage {
-  background-image: url(../assets/texturas/whitepapertexture.png);
+  background-image: url(../../assets/texturas/whitepapertexture.svg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
