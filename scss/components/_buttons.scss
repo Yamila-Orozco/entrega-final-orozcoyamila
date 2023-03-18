@@ -1,5 +1,5 @@
 .btn-danger{
-    font-family:'Rift', sans-serif;
+    font-family:$secondary-font;
 }
 
 .card-btn {
@@ -7,7 +7,7 @@
 	display: block;
 	margin-left: auto;
 	border: 2px solid plum;
-	padding: 10px 15px;
+	padding: 8px 13px;
 	border-radius: 25px;
 	font-size: 70%;
 	font-weight: 600;
@@ -15,7 +15,8 @@
 	cursor: pointer;
 	letter-spacing: 1.2px;
     &:hover {
-        color:#f8f9fa;
-        background-image: linear-gradient(101deg, #7291F9, #E66BBA);
+        color:$neutro-color-white;
+        background-image: linear-gradient(101deg, $primary-color-lightblue, $primary-color-pink);
     };
 }
+

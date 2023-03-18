@@ -1,34 +1,21 @@
 h1 {
-  font-family: "acumin-pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 305.2%;
+  @include heading-font($main-font, 700, normal, 2);
 }
+
 h2 {
-  font-family: "acumin-pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 244.1%;
+  @include heading-font($main-font, 700, normal, 3);
 }
+
 h3 {
-  font-family: "Rift", sans-serif;
-  font-weight: 300;
-  font-style: oblique;
-  font-size: 195.3%;
-  color: #F25C78;
+  @include heading-font($secondary-font, 300, oblique, 4);
+  color: $primary-color-red;
 }
 
 h4 {
-  font-family: 'Rift', sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 156.3%;
-  color: whitesmoke;
+  @include heading-font($secondary-font, 300, normal, 5);
+  color: $neutro-color-white;
 }
 
 p {
-  font-family: 'Rift', sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 156.3%;
+  @include heading-font($secondary-font, 300, normal, 5);
 }

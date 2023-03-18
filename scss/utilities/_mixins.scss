@@ -1,0 +1,7 @@
+@mixin heading-font($font-family, $font-weight, $font-style, $font-size) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-size: nth($sizes, $font-size);
+  }
+  

@@ -1,9 +1,9 @@
 @import 'utilities/variables';
 @import 'utilities/extend';
-@import 'utilities/lists';
 @import 'utilities/mixins';
 
 @import 'base/reset';
+@import 'base/lists';
 @import 'base/typo';
 
 @import 'layout/navigation';
@@ -15,6 +15,5 @@
 @import 'components/icons';
 
 @import 'pages/index';
-@import 'pages/blogentries';
 
 @import 'vendors/jquery-ui';

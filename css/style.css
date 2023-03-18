@@ -1,3 +1,9 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,40 +20,47 @@ html, body {
 }
 
 h1 {
-  font-family: "acumin-pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 305.2%;
-}
-
-h2 {
-  font-family: "acumin-pro", sans-serif;
+  font-family: "acumin-pro";
   font-weight: 700;
   font-style: normal;
   font-size: 244.1%;
 }
 
+h2 {
+  font-family: "acumin-pro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 195.3%;
+}
+
 h3 {
-  font-family: "Rift", sans-serif;
+  font-family: "Rift";
   font-weight: 300;
   font-style: oblique;
-  font-size: 195.3%;
+  font-size: 156.3%;
   color: #F25C78;
 }
 
 h4 {
-  font-family: "Rift", sans-serif;
+  font-family: "Rift";
   font-weight: 300;
   font-style: normal;
-  font-size: 156.3%;
-  color: whitesmoke;
+  font-size: 141.3%;
+  color: #F2F2F2;
 }
 
 p {
-  font-family: "Rift", sans-serif;
+  font-family: "Rift";
   font-weight: 300;
   font-style: normal;
-  font-size: 156.3%;
+  font-size: 141.3%;
+}
+
+nav li .btn-dropdown {
+  color: black;
+}
+nav li .btn-dropdown:hover {
+  background-color: #7291F9;
 }
 
 .logonavbar {
@@ -55,26 +68,30 @@ p {
 }
 
 .navbar {
-  font-family: "Rift", sans-serif;
+  font-family: "Rift";
   font-weight: bold;
   font-size: large;
   text-align: right;
 }
+.navbar focus {
+  outline-color: #ffffff;
+  outline-style: solid;
+}
 
 .navbar-scroll {
-  background-color: whitesmoke;
+  background-color: #F2F2F2;
 }
 
 .lg-animation:hover {
   transform: rotate(-180deg);
 }
 
-footer, .max-width {
+footer .max-width {
   max-width: 100%;
 }
 
 .btn-danger {
-  font-family: "Rift", sans-serif;
+  font-family: "Rift";
 }
 
 .card-btn {
@@ -82,7 +99,7 @@ footer, .max-width {
   display: block;
   margin-left: auto;
   border: 2px solid plum;
-  padding: 10px 15px;
+  padding: 8px 13px;
   border-radius: 25px;
   font-size: 70%;
   font-weight: 600;
@@ -91,28 +108,21 @@ footer, .max-width {
   letter-spacing: 1.2px;
 }
 .card-btn:hover {
-  color: #f8f9fa;
+  color: #F2F2F2;
   background-image: linear-gradient(101deg, #7291F9, #E66BBA);
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
+.wrapper .card {
   max-width: 30%;
   min-height: 25%;
-  background: whitesmoke;
+  background: #F2F2F2;
   padding: 2.5%;
   border-radius: 3px;
   box-sizing: border-box;
   margin: 2%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
-
-.cardimage {
+.wrapper .card .cardimage {
   object-fit: cover;
 }
 
@@ -143,7 +153,6 @@ footer, .max-width {
   display: flex;
   flex-direction: column;
 }
-
 .sticky-icon a {
   transform: translate(160px, 0px);
   border-radius: 50px 0px 0px 50px;
@@ -156,33 +165,15 @@ footer, .max-width {
   font-family: "rift", sans-serif;
   transition: all 0.8s;
 }
-
 .sticky-icon a:hover {
-  color: #FFF;
+  color: #F2F2F2;
   transform: translate(0px, 0px);
 }
-
 .sticky-icon a:hover i {
   transform: rotate(360deg);
 }
-
-.Facebook {
-  background-color: #7291F9;
-  color: #FFF;
-}
-
-.Youtube {
-  background-color: #F25C78;
-  color: #FFF;
-}
-
-.Instagram {
-  background-color: #E66BBA;
-  color: #FFF;
-}
-
 .sticky-icon a i {
-  background-color: #FFF;
+  background-color: #F2F2F2;
   height: 40px;
   width: 40px;
   color: #000;
@@ -192,20 +183,29 @@ footer, .max-width {
   margin-right: 20px;
   transition: all 0.5s;
 }
-
-.sticky-icon a i.fa-facebook-f {
-  background-color: #FFF;
+.sticky-icon a .fa-facebook-f {
+  background-color: #F2F2F2;
   color: #7291F9;
 }
-
-.sticky-icon a i.fa-instagram {
-  background-color: #FFF;
+.sticky-icon a .fa-instagram {
+  background-color: #F2F2F2;
   color: #E66BBA;
 }
-
-.sticky-icon a i.fa-youtube {
-  background-color: #FFF;
+.sticky-icon a .fa-youtube {
+  background-color: #F2F2F2;
   color: #F25C78;
+}
+.sticky-icon .Facebook {
+  background-color: #7291F9;
+  color: #F2F2F2;
+}
+.sticky-icon .Youtube {
+  background-color: #F25C78;
+  color: #F2F2F2;
+}
+.sticky-icon .Instagram {
+  background-color: #E66BBA;
+  color: #F2F2F2;
 }
 
 .bgimage {
@@ -238,11 +238,6 @@ main {
   margin-bottom: 3%;
 }
 
-/* .navbar {
-  @media only screen and (max-width: 480px){
-  background-color: whitesmoke;
-}
-} */
 @media screen and (max-width: 480px) {
   .sticky-icon {
     display: none;
@@ -278,7 +273,7 @@ main {
 }
 @media only screen and (max-width: 768px) {
   h2 {
-    font-size: 136.3%;
+    font-size: 141.3%;
   }
 }
 @media only screen and (max-width: 480px) {
