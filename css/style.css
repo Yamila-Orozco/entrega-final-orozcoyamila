@@ -347,4 +347,15 @@ main {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  nav {
+    background-color: #F2F2F2;
+  }
+}
+@media only screen and (max-width: 480px) {
+  nav {
+    background-color: #F2F2F2;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

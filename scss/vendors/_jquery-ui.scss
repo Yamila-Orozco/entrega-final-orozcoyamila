@@ -98,3 +98,13 @@ p {
     font-weight: 500;
   }
 }
+
+nav {
+  // Mobiles
+    @media only screen and (max-width: 768px) {
+      background-color: $neutro-color-white;}
+  // Small Mobiles
+    @media only screen and (max-width: 480px) {
+      background-color: $neutro-color-white;
+    }
+}
