@@ -1,19 +1,36 @@
-/*tipos de datos*/
-545454545 //numbers
-"Esto es un string" // string de characters
-true // es un valor booleano
-false // es un valor booleano
 
-null // nulo
+function toggleResetPswd(e){
+    e.preventDefault();
+    $('#logreg-forms .form-signin').toggle() // display:block or none
+    $('#logreg-forms .form-reset').toggle() // display:block or none
+}
 
-undefined //tipo de dato que no esta definido
+function toggleSignUp(e){
+    e.preventDefault();
+    $('#logreg-forms .form-signin').toggle(); // display:block or none
+    $('#logreg-forms .form-signup').toggle(); // display:block or none
+}
 
-/*variables* espacio reservado de la memoria que me permite almacenar datos utiles para la ejecicion de mi programa simulador*/
-//declaro una variable
-let nombre;
-var apellido; //no se utiliza mas
+$(()=>{
+    // Login Register Form
+    $('#logreg-forms #forgot_pswd').click(toggleResetPswd);
+    $('#logreg-forms #cancel_reset').click(toggleResetPswd);
+    $('#logreg-forms #btn-signup').click(toggleSignUp);
+    $('#logreg-forms #cancel_signup').click(toggleSignUp);
+})
 
-nombre = "samuel";
-
-//incializar con un dato
-let edad = 18;
+// JavaScript code 
+function search_category() { 
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('tags'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="list-item";                  
+        } 
+    } 
+} 
